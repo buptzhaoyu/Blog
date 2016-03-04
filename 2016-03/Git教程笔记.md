@@ -131,7 +131,7 @@ ___
 - 当前用户的Git配置文件放在用户祝目录下的一个隐藏文件`.gitconfig`中
 
 ### 搭建Git服务器
-> 搭建Git服务器需要准备一台运行Linux的及其，强烈推荐用Ubuntu或Debian，这样，通过几条简单的`apt`命令就可以完成安装。
+> 搭建Git服务器需要准备一台运行Linux的及其，强烈推荐用Ubuntu或Debian，这样，通过几条简单的`apt`命令就可以完成安装。  
 > 1. 安装`Git`
 > `$ sudo apt-get install git`
 > 2. 创建一个`git`用户，用来运行`git`服务
