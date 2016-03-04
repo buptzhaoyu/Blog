@@ -138,7 +138,7 @@
 
 ### 搭建Git服务器  
 > 搭建Git服务器需要准备一台运行Linux的及其，强烈推荐用Ubuntu或Debian，这样，通过几条简单的`apt`命令就可以完成安装。  
-> 1. __安装`Git__  
+> 1. __安装Git__  
 > `$ sudo apt-get install git`  
 > 2. __创建一个`git`用户，用来运行`git`服务__  
 > `$ sudo adduser git`  
