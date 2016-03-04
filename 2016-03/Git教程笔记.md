@@ -24,7 +24,7 @@
 ---
 
 ## 3. 时光机穿梭  
-- `git status`: 掌握工作区状态(git s)  
+- `git status`: 掌握工作区状态(`git s`)  
 - `git diff`: 查看修改内容  
 
 ### 版本回退  
@@ -75,6 +75,7 @@
 
 ### 解决冲突  
 - `git log --graph`: 查看分支合并图  
+
 > 当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。  
 
 ### 分支管理策略  
@@ -100,6 +101,7 @@
 
 ## 标签管理  
 > Git的标签虽然是版本库的快照，但其实它就是指向某个commit的指针。  
+
 ### 创建标签  
 - `git tag <name>`: 打一个新标签，在此之前需要切换到需要打标签的分支上  
 - `git tag`: 查看所有标签  
@@ -134,29 +136,29 @@
 
 ### 搭建Git服务器  
 > 搭建Git服务器需要准备一台运行Linux的及其，强烈推荐用Ubuntu或Debian，这样，通过几条简单的`apt`命令就可以完成安装。  
-> 1. 安装`Git`  
+> 1. __安装`Git__  
 > `$ sudo apt-get install git`  
-> 2. 创建一个`git`用户，用来运行`git`服务  
+> 2. __创建一个`git`用户，用来运行`git`服务__  
 > `$ sudo adduser git`  
-> 3. 创建证书登录  
+> 3. __创建证书登录__  
 > 收集所有需要登录的用户的公钥，就是他们自己的`id_rsa.pub`文件，把所有公钥导入到`/home/git/.ssh/authorized_keys`文件里，一行一个。  
-> 4. 初始化Git仓库  
+> 4. __初始化Git仓库__  
 > 先选定一个目录作为Git仓库，假定是`/srv/sample.git`，在`/srv`目录下输入命令：  
 > `sudo git init --bare sample.git`  
 > Git就会创建一个裸仓库，裸仓库没有工作区，因为服务器上的Git仓库纯粹是为了共享，所以不让用户直接登录到服务器上去改工作区，并且服务器上的Git仓库通常都以.git结尾。然后，把owner改为`git`:  
 > `$ sudo chown -R git:git sample.git`  
-> 5. 禁用shell登录  
+> 5. __禁用shell登录__  
 > 出于安全考虑，第二步创建的git用户不允许登录shell，这可以通过编辑`/etc/passwd`文件完成。找到类似下面的一行：  
 > `git:x:1001:1001:,,,:/home/git:/bin/bash`  
 > 改为：  
 > `git:x:1001:1001:,,,:/home/git:/usr/bin/git-shell`  
 > 这样，`git`用户可以正常通过ssh使用git，但无法登录shell，因为我们为`git`用户指定的`git-shell`每次一登录就自动退出。  
-> 6. 克隆远程仓库  
+> 6. __克隆远程仓库__  
 > 现在，可以通过`git clone`命令克隆远程仓库了，在各自的电脑上运行：  
 > ```
->    $ git clone git@server:/srv/sample.git  
->    Cloning into `sample`...  
->    warning: You appear to have cloned an empty repository  
+> $ git clone git@server:/srv/sample.git  
+> Cloning into `sample`...  
+> warning: You appear to have cloned an empty repository  
 > ```  
 > - 要方便管理公钥，用__Gitosis__  
 > - 要像SVN那样变态地控制权限，用__Gitolite__  
