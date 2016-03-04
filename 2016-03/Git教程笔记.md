@@ -160,4 +160,5 @@ ___
 
 ___
 
+![Git](http://git-scm.com/images/logo@2x.png)
 > [Git Official](http://git-scm.com)
