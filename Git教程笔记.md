@@ -93,10 +93,10 @@
 ### 多人协作  
 - `git remote -v`: 查看远程库信息  
 - 本地新建的分支如果不推送到远程，对其他人不可见  
-- `git push origin branch_name`: 从本地推送分支，若失败，先用`git pull`抓去远程的新提交  
+- `git push origin branch_name`: 从本地推送分支，若失败，先用`git pull`抓取远程的新提交  
 - `git checkout -b branch_name origin/branch_name`: 在本地创建和远程分支名称相同的分支  
 - `git branch --set-upstream branch_name origin/branch_name`: 建立本地分支和远程分支的关联  
-- `git pull`抓去远程分支有冲突时，先解决冲突  
+- `git pull`抓取远程分支有冲突时，先解决冲突  
 
 ---
 
