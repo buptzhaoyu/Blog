@@ -1,6 +1,6 @@
 # Git教程笔记  
 ![Git](http://git-scm.com/images/logo@2x.png)  
-> **Git Official**:[http://git-scm.com](http://git-scm.com)  
+> **Git Official:** [http://git-scm.com](http://git-scm.com)  
 > **教程地址:** [http://www.liaoxuefeng.com](http://www.liaoxuefeng.com)  
 > **Note By:** Daniel Zhao  
 
@@ -164,5 +164,3 @@
 > ```  
 > - 要方便管理公钥，用__Gitosis__  
 > - 要像SVN那样变态地控制权限，用__Gitolite__  
-
----
