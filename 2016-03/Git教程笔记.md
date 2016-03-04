@@ -18,8 +18,8 @@
 ## 2. 创建版本库  
 - `git init`: 初始化一个Git仓库  
 - 添加文件到Git仓库，分两步：  
-	 1. 第一步，使用命令`git add <file>`,注意，可反复多次使用，添加多个文件  
-	 2. 第二步，使用命令`git commit -m "描述"`，完成  
+ + 第一步，使用命令`git add <file>`,注意，可反复多次使用，添加多个文件  
+ + 第二步，使用命令`git commit -m "描述"`，完成  
 
 ---
 
@@ -125,6 +125,7 @@
 
 ## 自定义Git  
 - `git config --global color.ui true`: 让Git适当显示不同的颜色  
+
 ### 忽略特殊文件  
 > - 忽略某些文件时，需要编写`.gitignore`  
 > - `gitignore`文件本身要放到版本库里，并且可以对`.gitignore`做版本管理  
