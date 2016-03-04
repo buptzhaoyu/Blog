@@ -1,3 +1,3 @@
 # Blog
-> Some useful words recorded here.
->                                       --- Daniel Zhao
+> Some useful words recorded here.  
+>       --- Daniel Zhao
