@@ -1,5 +1,5 @@
 # Yu Zhao (Daniel)  
-## Internet Architecture Master Student & Data Mining Enthusiast  
+## Internet Architecture Master & Data Mining Enthusiast  
 
 > [bupt.zhaoyu@gmail.com](mailto:bupt.zhaoyu@gmail.com)  
 > (+49)017657697780  
