@@ -31,20 +31,20 @@
 ---  
 
 ### Experience
-- **Test Staff & Data Analyst**, Telecommunication Networks Group, Berlin, Germany (11/2015 - 02/2016)  
+- **Test Staff & Data Analyst**, Telecommunication Networks Group, Berlin, Germany (_11/2015 - 02/2016_)  
 	- Found out the existing method of network path emulation for mobile application performance testing and designed the experiment to test method's accuracy.
 	- Tested the accuracy of "Dummynet" used by mobile application developers for network path emulation.
 	- Concluded and analyzed the shortcomings of "Dummynet" and worked cohesively with teammates addressing a new way to emulate network path for mobile application performance testing.
 	- Verified the accuracy of new method which uses "TC" by changing time－varing intervals.
 	- Helped creating a "Markov Chain Model" for the input of network path emulation and tested the appropriateness.
 	- Plotted and analyzed the experiment results of the whole project using R and shell script and summarized conclusions.
-- **Network Engineer & Data Analyst**, Technische Universität Berlin, Berlin, Germany (10/2015 - 01/2016)
+- **Network Engineer & Data Analyst**, Technische Universität Berlin, Berlin, Germany (_10/2015 - 01/2016_)
 	- Used Alix Boards to accomplish researches on some topics of 802.11 over the platform OpenWrt, such as rate control algorithms, virtual career sensing, wireless security, CSMA/CA frame detecting, etc.
 	- Used R and shell script to analyze results of every experiment trying to find out proper explanations.
-- **Researcher**, Lip6 UPMC, Paris, France (03/2015 - 05/2015)
+- **Researcher**, Lip6 UPMC, Paris, France (_03/2015 - 05/2015_)
 	- Ran simulations and analyzed performance of a network module with several links using tcl script of NS2.
 	- Designed and implemented a complex network model with multi-routes and losses and ade a statistically analyzed the performance parameters of the simulations.
-- **Assistant Device Engineer**, China Unicom, Changchun, China (08/2013 - 06/2014)  
+- **Assistant Device Engineer**, China Unicom, Changchun, China (_08/2013 - 06/2014_)  
 	- Managed and monitored the local network elements of Changchun City and timely dealed with equipment alarms and network barriers with iManager T2000/U2000 series of network management system.
 	- Tested the loop and troubleshooted the fault points in case of equipment faults and alarms in local transmission chambers and assisted in the fiber system establishment and new equipment connection.
 
